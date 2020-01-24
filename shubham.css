@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h3 {
+    font-family: 'Megrim', cursive;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: darkslategray;
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+    color: black;
+}
+.logo img{
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+/* for mobile phone */
+@media only screen and (max-width: 450px) {
+    body{
+        background-color: #effffb;
+    }
+    .first{
+        width: 100%;
+        height: 100vh;
+    }
+    .back1{
+        position: absolute;
+        z-index: -1;
+        width: 60%;
+        height: 30%;
+        margin-top: -30px;
+        margin-left: -35px;
+        border-radius: 30% 70% 57% 43% / 37% 30% 70% 63% ;
+        background-image: linear-gradient(#ffa259, #fe6845);
+        -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        
+    }
+    .back2{
+        position: absolute;
+        top: 80vh;
+        z-index: -1;
+    }
+    .back2 img{
+        width: 100%;
+        height: auto;
+    }
+    .logo{
+        text-align: center;
+        margin: 20px auto 10px auto;
+    }
+    .introtext{
+        text-align: center;
+        margin: 100px auto;
+    }
+    .btn{
+        margin: 10px auto;
+        border-radius: 20px;
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background-color: cornsilk;
+        -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+    }
+    .btn h3{
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .btn:hover{
+        background-image: linear-gradient(#4a69bb, #617be3);
+    }
+    .hi{
+        margin: 5px auto;
+    }
+    .im{
+        margin: 5px auto;
+    }
+    .name{
+        margin: 5px auto;
+    }
+    hr{
+        width: 50%;
+        margin: 5px auto;
+        border: 1px solid darkslategray;
+        border-radius: 25px;
+        -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+      
+    }
+    .second{
+        width: 100%;
+        height: auto;
+    }
+    .secondbox{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .myimg{
+        width: 100%;
+        height: auto;
+        border-radius: 28% 65% 51% 28% / 28% 44% 48% 37% ;
+        background-image: linear-gradient(#d89cf6, #916dd5);
+        margin-bottom: 20px;
+    }
+    .myimg img{
+        border-radius: 15px;
+        margin: 5px auto;
+        -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+    }
+    .mytext p{
+        margin: 5px auto;
+    }
+    .devlogo img{
+        width: 20%;
+        height: auto;
+        float: right;
+    }
+    .third{
+        width: 100%;
+        height: auto;
+    }
+    .third h1{
+        line-height: 50px;
+    }
+    .webimg img{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .webtext p{
+        margin: 10px;
+    }
+    .blockimg img{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .blocktext p{
+        margin: 10px;
+    }
+    .fourth{
+        width: 100%;
+        height: auto;
+    }
+    .fourth h1{
+        line-height: 100px;
+    }
+    .fourth div a img{
+        display: flex;
+        justify-content: center;
+    }
+    .project1 a img{
+        width: 95%;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+    }
+    .project2 a img{
+        width: 95%;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+    }
+    .project3 a img{
+        width: 95%;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+    }
+    .fifth{
+        width: 100%;
+        height: auto;
+    }
+    .quotelogo{
+        display: flex;
+        justify-content: center;
+    }
+    .quotes1{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .fifth h1{
+        line-height: 100px;
+    }
+    .quotelogo img{
+        width: 10%;
+        height: auto;
+        margin: 10px;
+    }
+    .sixth{
+        width: 100%;
+        height: auto;
+        border-radius: 20px 20px 0 0;
+        background-image: linear-gradient( #bae8e8, #e3f6f5);
+        -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+    }
+    .importantlinks,.social,.otherlink {
+        text-align: center;
+        margin: 20px auto;
+        line-height: 30px;
+    }
+    
+    .otherlink ul li img{
+        width: 40%;
+        height: auto;
+    }
+    .social ul{
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+    .social ul li img{
+        width: 30px;
+        margin: 10px;
+    }
+    .sixth h4{
+        font-family: 'Megrim', cursive;
+        margin: 5px auto;
+        font-size: 20px;
+    }
+    .form{
+        justify-content: center;
+    }
+    input{
+        outline: none;
+        width: 90%;
+        padding: 12px 20px;
+        border-radius: 20px;
+        margin: 10px auto;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: center;
+        border: 1px solid #e3f6f5;
+        -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+    }
+    form{
+        display: flex;
+        justify-content: center;
+    }
+    textarea{
+        outline: none;
+        width: 90%;
+        height: auto;
+        min-height: 150px;
+        padding: 12px 20px;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.44);  
+    }
+    
+}
+
+/* For tablet */
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+    body {
+        background-color: blue;
+    }
+    .first{
+        width: 100%;
+        height: 100vh;
+    }
+    .second{
+        width: 100%;
+        height: 100vh;
+    }
+    .third{
+        width: 100%;
+        height: 100vh;
+    }
+    .fourth{
+        width: 100%;
+        height: 100vh;
+    }
+    .fifth{
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+/* For Laptop or Dekestop */
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: chartreuse;
+    }
+    .first{
+        width: 100%;
+        height: 100vh;
+    }
+    .second{
+        width: 100%;
+        height: 100vh;
+    }
+    .third{
+        width: 100%;
+        height: 100vh;
+    }
+    .fourth{
+        width: 100%;
+        height: 100vh;
+    }
+    .fifth{
+        width: 100%;
+        height: 100vh;
+    }
+}
